@@ -107,8 +107,8 @@ class TopWordsTest {
     }
 
 
-    private ByteArrayInputStream toInputStream(String x) {
-        return new ByteArrayInputStream(x.getBytes(StandardCharsets.UTF_8));
+    private ByteArrayInputStream toInputStream(String text) {
+        return new ByteArrayInputStream(text.getBytes(StandardCharsets.UTF_8));
     }
 
 }

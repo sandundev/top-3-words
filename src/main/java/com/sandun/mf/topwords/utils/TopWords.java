@@ -15,6 +15,7 @@ public class TopWords {
     public static String[] findTopThree(final InputStream inputStream) {
         if(inputStream == null) return new String[]{};
 
+        //find word matches in input stream
         Stream<String> wordStream = new Scanner(inputStream).findAll(REGEX_PATTERN)
                 .map(MatchResult::group);
 

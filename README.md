@@ -1,5 +1,5 @@
 # top-three-words-test
-Find Top 3 Occurrences in a given text or a input stream
+Find Top 3 Occurrences in desending order for a given text or a input stream
 
 ## Prerequisites
 - Java 11 & Maven 3
@@ -11,4 +11,5 @@ Find Top 3 Occurrences in a given text or a input stream
 - Run `mvn test`
 
 ## Other notes
-TODO:
+* extra large file inputs performance can be improved using a BufferedReader.
+* project was generated using https://start.spring.io/
